@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box{
+    height: 80%;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.box img{
+    height: 100%;
+    width: 100%;
+object-fit: cover;
+border-radius: 15px;
+}
+.box i{
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: rgb(255, 142, 142);
+    opacity: 0;
+    transform: translate(-50%,-50%) scale(0);
+    transition: all ease 0.3s;
+}
